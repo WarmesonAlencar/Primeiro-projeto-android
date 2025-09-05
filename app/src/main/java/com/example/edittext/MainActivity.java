@@ -21,7 +21,7 @@ public class MainActivity extends Activity {
         Button calcular = findViewById(R.id.buttonCalcular);
         TextView resultado = findViewById(R.id.textViewNotaFinal);
 
-        calcular.setOnClickListener(new View.OnClickListener() {
+        calcular.setOnClickListener(new View.OnClickListener() { // O setOnclickListener realiza/"seta" uma ação após o click
             @Override
             public void onClick(View v) {
                 String nota1Str = nota1.getText().toString();
