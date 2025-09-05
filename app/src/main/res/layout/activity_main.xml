@@ -7,7 +7,7 @@
     <EditText
         android:id="@+id/editTextNota1"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="100dp"
         android:ems="10"
         android:hint="Digite a primeira nota"
         android:inputType="text" />
@@ -18,6 +18,13 @@
         android:layout_height="wrap_content"
         android:ems="10"
         android:hint="Digite a segunda nota"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/editTextNota3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
         android:inputType="text" />
 
     <Button
